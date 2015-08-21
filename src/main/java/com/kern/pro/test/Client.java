@@ -16,6 +16,6 @@ public class Client {
 
         EnterInter impl = (EnterInter)client.create();
         System.out.println(impl.serviceList("KERN HO HO 99555222");
-        System.out.println(impl.serviceList("KERN HO HO 99555222");
+        System.out.println(impl.serviceList("KERN HO HO 88666666");
     }
 }

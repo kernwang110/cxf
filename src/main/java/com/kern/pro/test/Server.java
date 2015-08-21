@@ -29,7 +29,7 @@ public class Server {
             System.out.println(inter.toString());
         }
         System.out.println("Server start...");
-        Thread.sleep(60 * 1000);
+        Thread.sleep(61 * 1000);
         System.out.println("Server exit...");
         System.exit(0);
 
