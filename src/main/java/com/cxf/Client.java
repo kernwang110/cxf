@@ -1,6 +1,6 @@
-package com.kern;
+package com.cxf;
 
-import com.kern.impl.HelloWorld;
+import com.cxf.impl.HelloWorld;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 
 /**

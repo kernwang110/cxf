@@ -1,6 +1,6 @@
-package com.kern;
+package com.cxf;
 
-import com.kern.impl.CustomerServiceImpl;
+import com.cxf.impl.CustomerServiceImpl;
 import org.apache.cxf.interceptor.LoggingInInterceptor;
 import org.apache.cxf.interceptor.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsServerFactoryBean;

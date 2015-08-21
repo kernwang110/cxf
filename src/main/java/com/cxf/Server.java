@@ -1,5 +1,5 @@
-package com.kern;
-import com.kern.impl.HelloWorldImpl;
+package com.cxf;
+import com.cxf.impl.HelloWorldImpl;
 import org.apache.cxf.jaxws.JaxWsServerFactoryBean;
 /**
  * Created by kernwang on 2015/7/14.

@@ -7,9 +7,9 @@ http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
     <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
     <import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
 
-    <jaxws:endpoint id="helloworld" implementor="com.kern.impl.HelloWorldImpl" address="/HelloWorld" />
+    <jaxws:endpoint id="helloworld" implementor="com.cxf.impl.HelloWorldImpl" address="/HelloWorld" />
 
-    <!-- For client test -->
+    <!-- For client mock -->
     <jaxws:client id="helloWorldClient" address="http://localhost:9000/ws/HelloWorld"
-                  serviceClass="com.kern.impl.HelloWorld" />
+                  serviceClass="com.cxf.impl.HelloWorld" />
 </beans>

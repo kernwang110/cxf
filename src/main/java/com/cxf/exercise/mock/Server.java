@@ -1,6 +1,6 @@
-package com.kern.pro.test;
+package com.cxf.exercise.mock;
 
-import com.kern.pro.impl.EnterInterImpl;
+import com.cxf.exercise.integration.ServiceProvideInterImpl;
 import org.apache.cxf.interceptor.Interceptor;
 import org.apache.cxf.interceptor.LoggingInInterceptor;
 import org.apache.cxf.interceptor.LoggingOutInterceptor;
@@ -12,11 +12,11 @@ import javax.xml.namespace.QName;
  * Created by kernwang on 2015/8/20.
  */
 public class Server {
-    static final String URL = "http://localhost:9191/test";
+    static final String URL = "http://localhost:9191/mock";
 
     public static void main(String[] args) throws InterruptedException {
         JaxWsServerFactoryBean factory = new JaxWsServerFactoryBean();
-        factory.setServiceClass(EnterInterImpl.class);
+        factory.setServiceClass(ServiceProvideInterImpl.class);
         factory.setAddress(URL);
         factory.setEndpointName(new QName("KERN.TEST"));
 

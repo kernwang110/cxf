@@ -1,10 +1,9 @@
-package com.kern.impl;
+package com.cxf.exercise.domain;
 
 /**
  * Created by kernwang on 2015/7/15.
  */
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Date;
 
 @XmlRootElement(name = "Customer")
 public class Customer {

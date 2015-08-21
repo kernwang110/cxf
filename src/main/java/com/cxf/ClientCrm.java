@@ -1,7 +1,7 @@
-package com.kern;
+package com.cxf;
 
-import com.kern.impl.Customer;
-import com.kern.impl.CustomerService;
+import com.cxf.exercise.domain.Customer;
+import com.cxf.impl.CustomerService;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 
 import javax.xml.ws.WebServiceException;

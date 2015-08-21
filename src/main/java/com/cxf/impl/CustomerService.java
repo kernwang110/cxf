@@ -1,4 +1,6 @@
-package com.kern.impl;
+package com.cxf.impl;
+
+import com.cxf.exercise.domain.Customer;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

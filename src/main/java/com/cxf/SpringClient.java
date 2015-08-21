@@ -1,8 +1,4 @@
-package com.kern;
-
-import com.kern.impl.HelloWorld;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+package com.cxf;
 
 /**
  * Created by kernwang on 2015/7/14.

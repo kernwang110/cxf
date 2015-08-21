@@ -1,4 +1,4 @@
-package com.kern.impl;
+package com.cxf.impl;
 
 import org.apache.cxf.interceptor.LoggingInInterceptor;
 import org.apache.cxf.interceptor.LoggingOutInterceptor;

@@ -1,6 +1,6 @@
-package com.kern.impl;
+package com.cxf.impl;
 
-import javax.jws.WebService;
+import com.cxf.exercise.domain.Customer;
 
 /**
  * Created by kernwang on 2015/7/14.
