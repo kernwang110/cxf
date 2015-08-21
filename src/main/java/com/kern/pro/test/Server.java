@@ -32,6 +32,5 @@ public class Server {
         Thread.sleep(61 * 1000);
         System.out.println("Server exit...");
         System.exit(0);
-
     }
 }
